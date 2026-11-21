@@ -6,6 +6,7 @@ The system simulates a directed acyclic graph (DAG) where data flows from user i
 
 ```mermaid
 graph TD
+
     UserInput(User Input) --> L1[Layer 1: Prompt Normalization]
     L1 --> L2[Layer 2: Constraint Locking]
     L2 --> L3_FanOut[Layer 3: Parallel LLM Execution]
