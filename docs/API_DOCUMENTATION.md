@@ -24,6 +24,7 @@ The API supports **multi-provider configuration** with separate API keys for eac
 Configure each provider separately for maximum clarity:
 
 ```http
+
 POST /settings/keys
 Content-Type: application/json
 
