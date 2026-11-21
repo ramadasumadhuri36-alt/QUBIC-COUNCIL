@@ -1,0 +1,92 @@
+{
+  "id": "3a89a3f7-516b-4f9c-98a6-ed963223c51e",
+  "timestamp": "2026-11-19T17:09:55.766547",
+  "state": {
+    "raw_input": "give me current hackathon ideas",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "give me current hackathon ideas"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "give me current hackathon ideas"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "Llama 3.3 70B",
+        "response_text": "Error (groq): Error code: 401 - Invalid API Key",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "Llama 3.3 70B",
+        "claims": [
+          {
+            "claim_id": "afd813f3-103c-4b6e-a3c9-9bd5bd6db86d",
+            "text": "Error (groq): Error code: 401 - Invalid API Key"
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "a478ebfc",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "Llama 3.3 70B"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "a478ebfc",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "Llama 3.3 70B"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: Llama 3.3 70B: Error (groq): Error code: 401 - Invalid API Key",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

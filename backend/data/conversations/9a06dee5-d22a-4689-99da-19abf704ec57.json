@@ -1,0 +1,92 @@
+{
+  "id": "9a06dee5-d22a-4689-99da-19abf704ec57",
+  "timestamp": "2026-11-19T17:11:01.374457",
+  "state": {
+    "raw_input": "give me current hackathon ideas",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "give me current hackathon ideas"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "give me current hackathon ideas"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "response_text": "Error (openrouter): Error code: 401 - Missing Authentication header",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "claims": [
+          {
+            "claim_id": "a427bfd9-a826-4b59-9498-e11d2d08fef4",
+            "text": "Error (openrouter): Error code: 401 - Missing Authentication header"
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "cd48eb8b",
+        "canonical_claim": "Topic: Security",
+        "supporting_models": [
+          "GPT-4o (OR)"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "cd48eb8b",
+        "canonical_claim": "Topic: Security",
+        "supporting_models": [
+          "GPT-4o (OR)"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: GPT-4o (OR): Error (openrouter): Error code: 401 - Missing Authentication header",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

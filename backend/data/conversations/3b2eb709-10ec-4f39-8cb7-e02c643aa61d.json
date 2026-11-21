@@ -1,0 +1,140 @@
+{
+  "id": "3b2eb709-10ec-4f39-8cb7-e02c643aa61d",
+  "timestamp": "2026-11-20T14:53:08.501830",
+  "state": {
+    "raw_input": "prepare a ppt title called life without internet",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "prepare a ppt title called life without internet"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "prepare a ppt title called life without internet"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "response_text": "Error (openrouter): Connection error.",
+        "token_count": 0
+      },
+      {
+        "model_id": "Claude 3.5 Sonnet (OR)",
+        "response_text": "Error (openrouter): Connection error.",
+        "token_count": 0
+      },
+      {
+        "model_id": "Gemini 2.0 Flash (OR)",
+        "response_text": "Error (openrouter): Connection error.",
+        "token_count": 0
+      },
+      {
+        "model_id": "Llama 3.3 70B",
+        "response_text": "Error (groq): Connection error.",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "claims": [
+          {
+            "claim_id": "665a4a1c-3ef5-49a4-ab39-f79f59f8c0f6",
+            "text": "Error (openrouter): Connection error."
+          }
+        ]
+      },
+      {
+        "model_id": "Claude 3.5 Sonnet (OR)",
+        "claims": [
+          {
+            "claim_id": "4e7fccc1-526d-4a6c-a85c-4356c9886c79",
+            "text": "Error (openrouter): Connection error."
+          }
+        ]
+      },
+      {
+        "model_id": "Gemini 2.0 Flash (OR)",
+        "claims": [
+          {
+            "claim_id": "78d6161e-6e48-46aa-a0e2-125a47113a15",
+            "text": "Error (openrouter): Connection error."
+          }
+        ]
+      },
+      {
+        "model_id": "Llama 3.3 70B",
+        "claims": [
+          {
+            "claim_id": "95b26d55-ac50-409d-9f63-55afa1b53a41",
+            "text": "Error (groq): Connection error."
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "66f335ce",
+        "canonical_claim": "Topic: General",
+        "supporting_models": [
+          "Llama 3.3 70B",
+          "Claude 3.5 Sonnet (OR)",
+          "GPT-4o (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "66f335ce",
+        "canonical_claim": "Topic: General",
+        "supporting_models": [
+          "Llama 3.3 70B",
+          "Claude 3.5 Sonnet (OR)",
+          "GPT-4o (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.8,
+        "reasons": [
+          "Strong agreement: 4 models support this"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: GPT-4o (OR): Error (openrouter): Connection error. | Claude 3.5 Sonnet (OR): Error (openrouter): Connection error.",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

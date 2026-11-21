@@ -1,0 +1,92 @@
+{
+  "id": "4072919c-820a-4e5c-a9d2-76ee2c71a4c8",
+  "timestamp": "2026-11-19T18:44:20.657530",
+  "state": {
+    "raw_input": "What is the capital of France and what is its population?",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "What is the capital of France and what is its population?"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "What is the capital of France and what is its population?"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "system",
+        "response_text": "No API keys configured. Please configure keys in Settings.",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "system",
+        "claims": [
+          {
+            "claim_id": "f5536998-b1f0-429d-94be-eddd839bffc0",
+            "text": "No API keys configured. Please configure keys in Settings."
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "d52ec1d8",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "d52ec1d8",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: system: No API keys configured. Please configure keys in Settings.",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

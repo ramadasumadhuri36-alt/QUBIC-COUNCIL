@@ -1,0 +1,282 @@
+{
+  "id": "e474a991-417c-4bca-82be-25b894113899",
+  "timestamp": "2026-11-20T15:05:17.830182",
+  "state": {
+    "raw_input": "what is an ai",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "explain_concept",
+      "domain": "machine_learning",
+      "explicit_constraints": {},
+      "inferred_constraints": {},
+      "normalized_prompt": "What is artificial intelligence?"
+    },
+    "locked_context": {
+      "locked_constraints": {},
+      "constraint_hash": "44136fa355b3",
+      "normalized_prompt_data": {
+        "intent": "explain_concept",
+        "domain": "machine_learning",
+        "explicit_constraints": {},
+        "inferred_constraints": {},
+        "normalized_prompt": "What is artificial intelligence?"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "response_text": "Artificial Intelligence (AI) is a branch of computer science focused on creating systems capable of performing tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, understanding natural language, perception, and even exhibiting creativity. AI systems can be powered by various technologies, including machine learning, neural networks, and deep learning, which allow them to process large amounts of data, recognize patterns, and make decisions or predictions based on that data. AI is used in a wide range of applications, from virtual assistants and autonomous vehicles to advanced data analytics and robotics.",
+        "token_count": 93
+      },
+      {
+        "model_id": "Claude 3.5 Sonnet (OR)",
+        "response_text": "Error (openrouter): Error code: 404 - anthropic/claude-3.5-sonnet is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models",
+        "token_count": 0
+      },
+      {
+        "model_id": "Gemini 2.0 Flash (OR)",
+        "response_text": "Error (openrouter): Error code: 404 - google/gemini-2.0-flash-exp:free is no longer available on OpenRouter: no provider serves this model anymore. See available models at https://openrouter.ai/models",
+        "token_count": 0
+      },
+      {
+        "model_id": "Llama 3.3 70B",
+        "response_text": "Error (groq): Error code: 404 - The model `llama-3.3-70b-versatile` does not exist or you do not have access to it.",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "GPT-4o (OR)",
+        "claims": [
+          {
+            "claim_id": "c303d623-d6f7-4d15-bb9d-853c9226c2b6",
+            "text": "Artificial Intelligence (AI) is a branch of computer science."
+          },
+          {
+            "claim_id": "1bbef311-3e31-4c14-a6b4-0adad6d5e9fe",
+            "text": "AI is focused on creating systems capable of performing tasks that typically require human intelligence."
+          },
+          {
+            "claim_id": "37337338-811d-4e1b-8962-bcb303a46e87",
+            "text": "Tasks that AI can perform include learning."
+          },
+          {
+            "claim_id": "78de43c2-1bfa-464c-8ea2-687962246be4",
+            "text": "Tasks that AI can perform include reasoning."
+          },
+          {
+            "claim_id": "61011b96-b02c-4a88-8324-86267bf9ab38",
+            "text": "Tasks that AI can perform include problem-solving."
+          },
+          {
+            "claim_id": "83951fc0-dc00-4fe1-86d3-7af568ab5b8f",
+            "text": "Tasks that AI can perform include understanding natural language."
+          },
+          {
+            "claim_id": "3d4dbea4-3c4a-493a-b134-b977192d5629",
+            "text": "Tasks that AI can perform include perception."
+          },
+          {
+            "claim_id": "bb1d8f2a-c8f1-464d-8fbe-02f6c153aceb",
+            "text": "Tasks that AI can perform include exhibiting creativity."
+          },
+          {
+            "claim_id": "67b5bea1-360a-49ab-9757-f7d2d065fdb7",
+            "text": "AI systems can be powered by various technologies."
+          },
+          {
+            "claim_id": "67a5dc1c-0637-487c-a7c4-85b9d764763b",
+            "text": "AI technologies include machine learning."
+          },
+          {
+            "claim_id": "e0b45f5f-afa4-4ccc-85d7-366e50124cfe",
+            "text": "AI technologies include neural networks."
+          },
+          {
+            "claim_id": "028b2c28-a303-47e0-a1b8-485b89f72290",
+            "text": "AI technologies include deep learning."
+          },
+          {
+            "claim_id": "065244d1-7920-4d3b-b4a2-1e9910617316",
+            "text": "AI systems can process large amounts of data."
+          },
+          {
+            "claim_id": "178ab497-c9a4-4132-8cd8-c5c674c87939",
+            "text": "AI systems can recognize patterns."
+          },
+          {
+            "claim_id": "ed638469-9473-47e8-a446-c559f84dc1c6",
+            "text": "AI systems can make decisions based on data."
+          },
+          {
+            "claim_id": "c5845354-8905-4fd3-ba5b-e2ee13f4da62",
+            "text": "AI systems can make predictions based on data."
+          },
+          {
+            "claim_id": "b1a8db75-3550-473e-b7a1-16eb02c7a74f",
+            "text": "AI is used in virtual assistants."
+          },
+          {
+            "claim_id": "821ee852-8f00-4928-bb97-4f6437030d3b",
+            "text": "AI is used in autonomous vehicles."
+          },
+          {
+            "claim_id": "9c37fbfc-35a1-41b9-95de-4ff4af69d568",
+            "text": "AI is used in advanced data analytics."
+          },
+          {
+            "claim_id": "a44adddb-462f-4ce9-bc12-a482f538a3b4",
+            "text": "AI is used in robotics."
+          }
+        ]
+      },
+      {
+        "model_id": "Claude 3.5 Sonnet (OR)",
+        "claims": [
+          {
+            "claim_id": "bbc74c7f-332a-4e74-8a7b-efb18b7b6eb0",
+            "text": "Error code 404 indicates that anthropic/claude-3.5-sonnet is no longer available on OpenRouter."
+          },
+          {
+            "claim_id": "5a40e78f-25c2-4844-961a-d52ed12e8110",
+            "text": "No provider serves the model anthropic/claude-3.5-sonnet anymore."
+          },
+          {
+            "claim_id": "8d392a35-aaae-464e-a35b-6a4fa46840df",
+            "text": "Available models can be viewed at https://openrouter.ai/models."
+          }
+        ]
+      },
+      {
+        "model_id": "Gemini 2.0 Flash (OR)",
+        "claims": [
+          {
+            "claim_id": "27adb54a-04a5-46e7-b93b-981cafd7c07e",
+            "text": "The error code is 404."
+          },
+          {
+            "claim_id": "b3f9700e-667b-4b90-9809-cdf50b3a4606",
+            "text": "The model google/gemini-2.0-flash-exp is no longer available on OpenRouter."
+          },
+          {
+            "claim_id": "682f26ca-76ec-4619-ad27-c064a77a5c47",
+            "text": "No provider serves the model google/gemini-2.0-flash-exp anymore."
+          },
+          {
+            "claim_id": "577f23e4-a638-4567-aef1-03d3b95543dd",
+            "text": "Available models can be viewed at https://openrouter.ai/models."
+          }
+        ]
+      },
+      {
+        "model_id": "Llama 3.3 70B",
+        "claims": [
+          {
+            "claim_id": "720c4e32-ce05-40c0-b0b6-24f5bb3a7bb3",
+            "text": "The model `llama-3.3-70b-versatile` does not exist."
+          },
+          {
+            "claim_id": "e4c30c2b-d37c-4149-b725-11e741cae5b5",
+            "text": "Access to the model `llama-3.3-70b-versatile` is not granted."
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "a98427e9",
+        "canonical_claim": "Topic: General",
+        "supporting_models": [
+          "Llama 3.3 70B",
+          "Claude 3.5 Sonnet (OR)",
+          "GPT-4o (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": []
+      },
+      {
+        "cluster_id": "1fe2d254",
+        "canonical_claim": "Topic: Frontend",
+        "supporting_models": [
+          "GPT-4o (OR)"
+        ],
+        "conflicting_models": []
+      },
+      {
+        "cluster_id": "9eb33696",
+        "canonical_claim": "Topic: Security",
+        "supporting_models": [
+          "Claude 3.5 Sonnet (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "a98427e9",
+        "canonical_claim": "Topic: General",
+        "supporting_models": [
+          "Llama 3.3 70B",
+          "Claude 3.5 Sonnet (OR)",
+          "GPT-4o (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.8,
+        "reasons": [
+          "Strong agreement: 4 models support this"
+        ]
+      },
+      {
+        "cluster_id": "9eb33696",
+        "canonical_claim": "Topic: Security",
+        "supporting_models": [
+          "Claude 3.5 Sonnet (OR)",
+          "Gemini 2.0 Flash (OR)"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.65,
+        "reasons": [
+          "Moderate agreement: 2 models support this"
+        ]
+      },
+      {
+        "cluster_id": "1fe2d254",
+        "canonical_claim": "Topic: Frontend",
+        "supporting_models": [
+          "GPT-4o (OR)"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Artificial Intelligence (AI) is a branch of computer science focused on creating systems capable of executing tasks that typically require human intelligence. Such tasks include learning, reasoning, problem-solving, understanding natural language, perception, and creativity. AI is underpinned by numerous technologies, including machine learning, neural networks, and deep learning, which facilitate the analysis of vast datasets, pattern recognition, and informed decision-making.",
+      "confidence": 0.65,
+      "uncertain_areas": [
+        "The role of AI in frontend development remains uncertain and may require further exploration to understand its potential impact.",
+        "Topic: Frontend"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "normalization",
+          "details": "Intent: explain_concept"
+        },
+        {
+          "step": "execution",
+          "details": "Queried 4 models"
+        },
+        {
+          "step": "synthesis",
+          "details": "Chairman (openai/gpt-4o-mini) synthesized answer"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

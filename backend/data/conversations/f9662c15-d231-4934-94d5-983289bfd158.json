@@ -1,0 +1,92 @@
+{
+  "id": "f9662c15-d231-4934-94d5-983289bfd158",
+  "timestamp": "2026-11-19T17:08:26.950237",
+  "state": {
+    "raw_input": "give me current hackathon ideas",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "give me current hackathon ideas"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "give me current hackathon ideas"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "system",
+        "response_text": "No API keys configured. Please configure keys in Settings.",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "system",
+        "claims": [
+          {
+            "claim_id": "55fcad99-4d89-4bfe-b7dd-093a26cb4ecf",
+            "text": "No API keys configured. Please configure keys in Settings."
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "38e5fe3d",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "38e5fe3d",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: system: No API keys configured. Please configure keys in Settings.",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}

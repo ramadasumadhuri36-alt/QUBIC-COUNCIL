@@ -1,0 +1,92 @@
+{
+  "id": "32edef99-7281-4151-ace9-d313ad72682b",
+  "timestamp": "2026-11-19T18:43:43.818703",
+  "state": {
+    "raw_input": "Test query",
+    "conversation_id": null,
+    "normalized": {
+      "intent": "general_query",
+      "domain": "technology",
+      "explicit_constraints": {},
+      "inferred_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "normalized_prompt": "Test query"
+    },
+    "locked_context": {
+      "locked_constraints": {
+        "language": "english",
+        "depth": "intermediate"
+      },
+      "constraint_hash": "355881f28823",
+      "normalized_prompt_data": {
+        "intent": "general_query",
+        "domain": "technology",
+        "explicit_constraints": {},
+        "inferred_constraints": {
+          "language": "english",
+          "depth": "intermediate"
+        },
+        "normalized_prompt": "Test query"
+      }
+    },
+    "model_responses": [
+      {
+        "model_id": "system",
+        "response_text": "No API keys configured. Please configure keys in Settings.",
+        "token_count": 0
+      }
+    ],
+    "all_claims": [
+      {
+        "model_id": "system",
+        "claims": [
+          {
+            "claim_id": "49e5c235-68fc-447f-9012-be65109956b3",
+            "text": "No API keys configured. Please configure keys in Settings."
+          }
+        ]
+      }
+    ],
+    "peer_reviews": [],
+    "agreement_clusters": [
+      {
+        "cluster_id": "50f49bdf",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": []
+      }
+    ],
+    "scored_clusters": [
+      {
+        "cluster_id": "50f49bdf",
+        "canonical_claim": "Topic: Backend",
+        "supporting_models": [
+          "system"
+        ],
+        "conflicting_models": [],
+        "confidence_score": 0.5,
+        "reasons": [
+          "Single model claim - lower confidence"
+        ]
+      }
+    ],
+    "consensus": {
+      "final_answer": "Council Summary: system: No API keys configured. Please configure keys in Settings.",
+      "confidence": 0.4,
+      "uncertain_areas": [
+        "Automated synthesis failed - manual review recommended"
+      ],
+      "reasoning_trace": [
+        {
+          "step": "error",
+          "details": "Synthesis failed, using concatenated responses"
+        }
+      ]
+    },
+    "errors": []
+  }
+}
