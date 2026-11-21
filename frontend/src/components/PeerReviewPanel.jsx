@@ -9,6 +9,7 @@ export default function PeerReviewPanel({ reviews }) {
     reviews.forEach(r => {
         if (!groupedByModel[r.reviewed_model]) {
             groupedByModel[r.reviewed_model] = [];
+            
         }
         groupedByModel[r.reviewed_model].push(r);
     });
