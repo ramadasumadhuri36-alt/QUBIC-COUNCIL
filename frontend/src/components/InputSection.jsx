@@ -16,6 +16,7 @@ export default function InputSection({ onRun, isLoading }) {
             <div style={{ marginBottom: '1.5rem' }}>
                 <h1 style={{ fontSize: '2.5rem', fontWeight: 800, margin: '0 0 0.5rem 0', background: 'linear-gradient(135deg, #fff 0%, #94a1b2 100%)', WebkitBackgroundClip: 'text', WebkitTextFillColor: 'transparent' }}>
                     Consensus Engine
+                    
                 </h1>
                 <p style={{ color: 'var(--text-secondary)', fontSize: '1.1rem' }}>
                     Multi-LLM polling with traceable reasoning graphs.
