@@ -7,6 +7,7 @@ const API_URL = "http://localhost:8000";
 export default function HistoryPanel({ onClose, onSelect }) {
     const [conversations, setConversations] = useState([]);
     const [loading, setLoading] = useState(true);
+    
 
     useEffect(() => {
         fetchConversations();
