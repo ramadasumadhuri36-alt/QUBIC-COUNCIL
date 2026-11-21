@@ -10,6 +10,7 @@ The current frontend is built with **Vanilla technologies** for maximum performa
 - **Graphics**: HTML5 `<canvas>` for the interactive geometric background (`mainpage.html`).
 - **Fonts**: Google Fonts
   - *Space Grotesk* (Loading UI)
+  
   - *Plus Jakarta Sans* (Main Headings)
   - *JetBrains Mono* (Technical/Data elements)
 
