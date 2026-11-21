@@ -9,6 +9,7 @@ export default function NodeInspector({ graphState }) {
 
     const tabs = [
         { id: 'responses', label: 'Model Responses', icon: <Eye size={14} /> },
+        
         { id: 'claims', label: 'Claims (L4)', icon: <Activity size={14} /> },
         { id: 'agreement', label: 'Clusters (L5)', icon: <Layers size={14} /> },
         { id: 'raw', label: 'Raw State', icon: <Database size={14} /> },
