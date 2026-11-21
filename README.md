@@ -33,6 +33,7 @@ cd backend
 python -m uvicorn app.main:app --reload --port 8000
 ```
 
+
 ### 3. Open the Application
 
 Navigate to: **http://localhost:8000**
