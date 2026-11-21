@@ -5,3 +5,4 @@ python-dotenv>=1.0.0
 openai>=1.0.0
 watchfiles>=0.20.0
 colorama>=0.4.6
+
