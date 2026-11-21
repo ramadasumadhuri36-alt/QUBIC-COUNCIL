@@ -16,6 +16,7 @@ The system now supports **two separate API keys** for different LLM providers:
 1. Open the main application page
 2. Click the **⚙ COUNCIL_CONFIG** button in the top-right corner (or the gear icon on the sidebar toggle)
 3. In the sidebar, scroll to the **API CONFIGURATION** section
+
 4. Enter your API keys:
    - **OpenRouter API Key**: Starts with `sk-or-v1-...`
    - **Groq API Key**: Starts with `gsk_...`
