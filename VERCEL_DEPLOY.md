@@ -5,6 +5,7 @@ You have two versions of the frontend available given the codebase structure.
 ## Option A: Deploy "Quantum Consensus" (3D Interface) - RECOMMENDED
 This uses the animated 3D loading page and the main HTML interface you have been working on.
 
+
 **1. Deploy Backend (Render/Railway)**
    - Deploy the `backend` folder to Render.com (or similar).
    - Get your Backend URL (e.g., `https://qubic-council.onrender.com`).
