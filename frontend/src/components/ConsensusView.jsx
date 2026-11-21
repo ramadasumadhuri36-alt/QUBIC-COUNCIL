@@ -15,6 +15,7 @@ export default function ConsensusView({ finalData }) {
 
     const getConfidenceLabel = (score) => {
         if (score >= 0.8) return 'High Confidence';
+        
         if (score >= 0.6) return 'Moderate Confidence';
         if (score >= 0.4) return 'Low Confidence';
         return 'Very Low Confidence';
