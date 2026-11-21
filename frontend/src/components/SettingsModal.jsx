@@ -11,6 +11,7 @@ export default function SettingsModal({ onClose }) {
     const [statusType, setStatusType] = useState('info'); // info, success, error
     const [saved, setSaved] = useState(false);
     const [loading, setLoading] = useState(false);
+    
     const [providerStatus, setProviderStatus] = useState({
         openrouter: { configured: false },
         groq: { configured: false }
