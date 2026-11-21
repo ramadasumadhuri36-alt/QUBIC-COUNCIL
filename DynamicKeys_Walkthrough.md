@@ -13,6 +13,7 @@ The "Universal API Key" feature allows you to input a single API key from any su
 4.  Paste your API key (e.g., `sk-...`, `gsk_...`, `sk-or-...`).
 5.  Click **CONNECT & DETECT**.
 
+
 ## Supported Providers & Formats
 | Provider | Key Format | Detection Logic | Available Models |
 | :--- | :--- | :--- | :--- |
