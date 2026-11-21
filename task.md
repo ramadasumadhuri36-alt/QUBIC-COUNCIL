@@ -8,6 +8,7 @@
 
 ## Phase 2: Backend Implementation
 - [ ] Create `backend/app/engine/providers.py` for provider logic <!-- id: 4 -->
+
 - [ ] Implement detection logic (Regex + Verification) <!-- id: 5 -->
 - [ ] Refactor `backend/app/nodes/__init__.py` to use `ProviderFactory` <!-- id: 6 -->
 - [ ] Update `/settings/keys` endpoint to handle raw key string and return detected provider <!-- id: 7 -->
