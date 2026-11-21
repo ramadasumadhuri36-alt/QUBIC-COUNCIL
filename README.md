@@ -45,6 +45,7 @@ The loading page will automatically redirect you to the main application.
 ### Setting Up API Keys
 
 1. Click the **gear icon (⚙)** or **COUNCIL_CONFIG** button in the top-right
+
 2. Enter your API key in the **UNIVERSAL API KEY** field
 3. Click **CONNECT & DETECT**
 
