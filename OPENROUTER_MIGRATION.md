@@ -17,6 +17,7 @@ We've migrated from using three separate API providers (OpenAI, Anthropic, Googl
 
 ### After (OpenRouter)
 - ✅ 1 unified API key
+
 - ✅ 1 billing account
 - ✅ Unified rate limiting
 - ✅ Consistent error handling
